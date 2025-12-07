@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Método Sereninho - Aventura da Calma</title>
+    <meta name="description" content="Aprenda a lidar com a ansiedade brincando.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+            },
+            colors: {
+              primary: '#58CC02', // Verde Duolingo
+              primaryDark: '#46A302',
+              secondary: '#1CB0F6', // Azul vibrante
+              secondaryDark: '#1899D6',
+              background: '#FFFFFF',
+              surface: '#F7F7F7',
+              textMain: '#4B4B4B',
+              textSec: '#777777',
+              success: '#58CC02',
+              highlight: '#FFC800', // Dourado
+              danger: '#FF4B4B'
+            },
+            boxShadow: {
+              'bouncy': '0px 4px 0px 0px rgba(0,0,0,0.2)',
+              'bouncy-lg': '0px 6px 0px 0px rgba(0,0,0,0.2)',
+              'bouncy-primary': '0px 4px 0px 0px #46A302',
+              'bouncy-secondary': '0px 4px 0px 0px #1899D6',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FFFFFF;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+      /* Animações de clique */
+      .btn-bouncy:active {
+        transform: translateY(4px);
+        box-shadow: none !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
